@@ -1,0 +1,220 @@
+body{
+    background-color: beige;
+    background-image: url(../images/Melvin/fond.jpg);
+    
+    background-size: cover;
+    font-family: sans-serif;
+    width: 65%;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: larger;
+    padding: 40px;
+    border-style: solid;
+    border-radius: 80px 80px;
+    
+
+}
+
+h1, h2 {
+    padding-left: 28%;
+    font-style: italic;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.haut_de_page {
+    text-align: left;
+    border: solid;
+    padding: auto;
+    padding-left: 1.5cm;
+    max-width:100%;
+    border-radius: 80px 80px;   
+}
+
+.cote_gauche {
+    float: left;
+    width: 30% ;
+    border: solid;
+    border-top: none;
+    border-radius: 80px 80px;
+    padding-right:auto;
+    border-right: auto;
+    padding-top: 5%;
+}
+
+.cote_droit {
+    float: right;
+    width: 69%;
+    border-right: solid;
+    padding-right: auto;
+    border-bottom: solid;
+    padding-bottom: 2%;
+    border-left: solid;
+    margin-left: auto;
+    border-radius: 80px 80px;
+    
+}
+
+.bas_de_page{
+    margin-top: 4%;
+    font-size: large;
+    border-radius: 80px 80px;
+    text-align: center;
+}
+
+a {
+    font-style: italic;
+    text-decoration: dashed;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------------  balise communes au-dessus */
+
+table{
+    border-style: none;
+    border-right: none;
+    padding-left: auto;
+}
+
+td, th {
+    border-style: solid;
+}
+
+#competences_M {
+    padding-top: 2rem;
+}
+
+.hr_de_style_M{
+    border-style: double;
+    width: 10%;
+    height: 20%;
+    margin-left: 0%;
+}
+#profil_perso_M{
+    padding-top: 2rem;
+    padding-left: 5%;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+#diplomes_M{
+    padding-left: 5%;
+    text-align: left;
+    padding-top: -20%;
+}
+
+#contact_M {
+    padding-left: 5%;
+    text-align: left;
+}
+
+#Expérience_Professionnelle_M {
+    padding-top: 2rem;
+}
+
+#passion_M{
+    padding-top: 2rem;
+}
+
+.nav_M{
+    border-style: groove;
+    background-color: lightgoldenrodyellow
+}
+#image_M {
+    width: 15%;
+    position: static;
+    float: inline-start;
+} 
+
+
+/*----------------------------------------------------------------------------------------------------------- balise spé pour kyky */
+.haut_de_page .navlink{
+    border-style: groove;
+    background-color: white;
+    text-align: center;
+    margin-left: 30px;
+}
+.navlink:hover{
+    background-color: bisque;
+}
+
+.cote_droit table {
+    padding-left: 10%;
+}
+.pp{
+    max-width: 24%;
+}
+.cote_gauche img{
+    width: 50%;
+    border: 1px;
+    border-color: black;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------balise spé pour PE */
+.cote_gauche table {
+    font-size: small;
+}
+#pp{width: 20%; float: right; padding-top: 10pt;}
+
+
+#cote_gauche{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+#cote_droit{
+    margin-top: 3rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------balise spé pour L */
+ul.Menu {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+li.Menu {
+    margin-left: 2px;
+    float: center;
+}
+ul li a.Menu {
+    display: block;
+    float: left;
+    width: 100px;
+    color:black ;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid;
+    border-color: black;
+}
+ul li a:hover {
+    color: red;
+    border-color: red;
+    text-decoration: underline;
+}
+li.info {
+    margin-left: 15%;
+    list-style-type: disc;
+    font-size: 20px;
+    line-height: 4.9;
+}
+
+
+/* Normes:
+h1
+h2
+class = "Haut_de_page"
+class = "cote_gauche"
+class = "cote_droit"
+class = "bas_de_page"
+class = "page"
+a
+*/

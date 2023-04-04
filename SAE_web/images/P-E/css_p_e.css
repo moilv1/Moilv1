@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(40, 40, 40);
+}
+h1{
+    
+    font-style: oblique;
+}
+a{
+    color:red;
+    font-style: oblique;
+}
+table, td, th{
+    color: black;
+    border-color: gray;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 10px;
+    background-color: azure;
+}
+img[alt]{
+    color: black
+}
+*{
+    color:azure
+}
+th{
+    font-weight: bolder;
+}
+ol{
+    list-style: lower-greek;
+}
+img{
+    max-width: 500px;
+}
